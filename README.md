@@ -1,6 +1,14 @@
 # Dokumentacja projektu - Inżynieria Oprogramowania 2025/2026
 
-### 1. Charakterystyka oprogramowania
+## Spis treści
+1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)
+2. [Prawa autorskie](#2-prawa-autorskie)
+3. [Specyfikacja wymagań](#3-specyfikacja-wymagań).
+4. [Architektura systemu/oprogramowania](#4-architektura-systemuoprogramowania)
+5. [Testy](#5-testy)
+
+---
+## 1. Charakterystyka oprogramowania
 **a. Nazwa skrócona:** Turystyka-PCA
 
 **b. Nazwa pełna:** System analityczny do oceny atrakcyjności turystycznej województw Polski z wykorzystaniem metod statystycznych i wizualizacji kartograficznej.
@@ -11,23 +19,23 @@ System ma ułatwić użytkownikowi szybkie porównanie potencjału turystycznego
 
 ---
 
-### 2. Prawa autorskie
+## 2. Prawa autorskie
 **a. Autorzy:** Paulina Koniecko, Alicja Skrzyńska
 
 **b. Warunki licencyjne:** Oprogramowanie udostępniane jest na licencji **MIT**. Pozwala ona na dowolne wykorzystanie kodu pod warunkiem zachowania informacji o autorach.
 
 ---
 
-### 3. Specyfikacja wymagań (Wariant A)
+## 3. Specyfikacja wymagań
 
-#### Moduł 1: Pobieranie i Przetwarzanie Danych
+### Moduł 1: Pobieranie i Przetwarzanie Danych
 | Identyfikator | Nazwa | Opis | Priorytet | Kategoria |
 | :--- | :--- | :--- | :---: | :--- |
 | F1.1 | Pobieranie API | Pobieranie danych dla 11 wskaźników metodą `by-variable`. | 1 | Funkcjonalne |
 | F1.2 | Normalizacja | Przeliczanie danych per capita oraz na km². | 1 | Funkcjonalne |
 | NF1.1 | Obsługa błędów | Mechanizm Retry Logic dla błędów sieciowych i limitów API (429). | 1 | Pozafunkcjonalne |
 
-#### Moduł 2: Analiza Statystyczna i UI
+### Moduł 2: Analiza Statystyczna i UI
 | Identyfikator | Nazwa | Opis | Priorytet | Kategoria |
 | :--- | :--- | :--- | :---: | :--- |
 | F2.1 | Analiza PCA | Wyliczanie składowej PC1 na podstawie standaryzowanych danych. | 1 | Funkcjonalne |
@@ -36,7 +44,7 @@ System ma ułatwić użytkownikowi szybkie porównanie potencjału turystycznego
 
 ---
 
-### 4. Architektura systemu/oprogramowania
+## 4. Architektura systemu/oprogramowania
 
 **a. Architektura rozwoju:**
 | Nazwa technologii | Przeznaczenie | Numer wersji |
@@ -60,7 +68,7 @@ System ma ułatwić użytkownikowi szybkie porównanie potencjału turystycznego
 
 ---
 
-### 5. Testy
+## 5. Testy
 
 **a. Scenariusze testów:**
 1. **ST_01:** Uruchomienie pobierania danych dla roku 2022 - sprawdzenie kompletności tabeli (16 województw).

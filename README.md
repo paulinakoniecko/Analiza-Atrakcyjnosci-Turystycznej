@@ -1,4 +1,5 @@
-# Dokumentacja projektu - Inżynieria Oprogramowania 2025/2026
+# Regionalny Indeks Atrakcyjności Turystycznej (RIAT)
+*Dokumentacja projektu - Inżynieria Oprogramowania 2025/2026*
 
 ## Spis treści
 1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)

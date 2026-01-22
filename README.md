@@ -74,7 +74,7 @@
 ## 5. Struktura plików projektu
 * `Alicja_Skrzynska_Paulina_Koniecko_projekt_inzynieria_oprogramowania.ipynb` – Główna aplikacja analityczna z interfejsem.
 * `Analiza_Wstepna_Wybor_Zmiennych.ipynb` – Kod dokumentujący proces selekcji zmiennych (korelacje, osypisko).
-* `Dane_Statystyczne_Reczne.csv` – Dane historyczne użyte do kalibracji modelu PCA.
+* `dane_wojewodztwa.xlsx` – Dane historyczne użyte do kalibracji modelu PCA.
 * `requirements.txt` – Lista bibliotek niezbędnych do uruchomienia.
 
 ---

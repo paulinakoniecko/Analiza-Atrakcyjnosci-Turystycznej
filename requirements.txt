@@ -11,6 +11,3 @@ scikit-learn
 # Biblioteki do analizy wstępnej (wykresy i korelacje)
 matplotlib
 seaborn
-
-# Obsługa plików Excel
-openpyxl
